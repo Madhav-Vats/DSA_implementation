@@ -1,0 +1,10 @@
+M:\c++\atom\stacks\implementation.cpp: In member function 'void stack::pop()':
+M:\c++\atom\stacks\implementation.cpp:32:27: error: expected primary-expression before 'int'
+int dynamic_array = int[size-1];
+^~~
+M:\c++\atom\stacks\implementation.cpp:35:24: error: invalid types 'int[int]' for array subscript
+dynamic_array[i]=arr[i];
+^
+M:\c++\atom\stacks\implementation.cpp:38:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+arr=dynamic_array;
+^~~~~
